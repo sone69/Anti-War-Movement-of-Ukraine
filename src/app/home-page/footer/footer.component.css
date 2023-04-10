@@ -1,0 +1,130 @@
+.footer {
+  background-color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 57px 200px 100px;
+}
+.form input {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background: #000000;
+  margin-bottom: 40px;
+}
+.form-btn {
+  background: #fce000;
+  border-radius: 10px;
+  padding: 10px 39px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  border: none;
+}
+.menu-social a:hover,
+.instagram:hover {
+  color: #ffd700;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.menu-social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  color: #ffffff;
+}
+.menu-social a:not(:nth-child(4)) {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.menu-social a:not(:nth-child(4)):hover {
+  border: 3px solid #ffd700;
+  color: #ffd700;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 9px;
+}
+.instagram {
+  font-size: 45px;
+  padding-top: 0;
+  color: #ffffff;
+}
+.footer-contact {
+  color: #ffffff;
+}
+.footer-contact__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 62px;
+}
+.footer-contact__text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  margin-bottom: 10px;
+}
+.copyright {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 31px;
+}
+@media (max-width: 1130.8px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-social {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 999.8px) {
+  .footer__content {
+    margin: 40px 100px;
+  }
+}
+@media (max-width: 599.8px) {
+  .footer-logo img {
+    max-width: 250px;
+  }
+  .footer__content {
+    margin: 59px 20px 40px;
+  }
+  .form input {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .form-btn {
+    font-size: 20px;
+    padding: 10px 17px;
+  }
+  .menu-social {
+    margin-top: 40px;
+  }
+  .footer-contact__title,
+  .footer-contact__text p {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    padding-bottom: 40px;
+  }
+}

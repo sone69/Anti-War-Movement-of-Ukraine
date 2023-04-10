@@ -1,0 +1,120 @@
+.power {
+  position: relative;
+}
+.help {
+  display: flex;
+}
+.image-block img {
+  margin-top: 60px;
+  width: 591px;
+  height: 330px;
+}
+.image-block__title {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.21em;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+.help__content {
+  margin: 153px 117px 157px 109px;
+}
+.help-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.btn {
+  background: #fce000;
+  border-radius: 10px;
+  padding: 10px 39px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.about {
+  background-color: #fce000;
+  width: 100%;
+}
+.about p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 31px;
+  margin: 0;
+}
+.about p:first-child {
+  padding-top: 46px;
+  padding-bottom: 54px;
+}
+@media (max-width: 1199.8px) {
+  .help-text {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .help__content {
+    margin: 100px 60px;
+  }
+  .btn {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 999.8px) {
+  .image-block {
+    margin: 0 auto;
+  }
+  .image-block img {
+    width: 320px;
+    height: 224.8px;
+    margin-top: 3px;
+  }
+  .image-block__title {
+    font-size: 25.9898px;
+    line-height: 38px;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .help-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .help__content {
+    margin: 40px 80px 60px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+}
+@media (max-width: 757.8px) {
+  .container {
+    padding: 0;
+  }
+  .help {
+    flex-wrap: wrap;
+  }
+  .help__content {
+    margin: 40px 5px 60px;
+  }
+  .help__content-button {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .about p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 20px 20px;
+  }
+  .about p:first-child {
+    padding: 20px 20px 0;
+  }
+}

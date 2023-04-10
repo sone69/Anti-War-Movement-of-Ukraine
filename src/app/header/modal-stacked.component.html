@@ -1,0 +1,32 @@
+<header>
+  <div class="container">
+    <div class="header-content">
+      <a routerLink="/" class="logo">
+        <img class="logo-image" src="../../../assets/img/logo.png" alt="logo">
+      </a>
+      <div class="menu-content">
+        <div class="menu-icon" [class.menu-iconClass]="menuIconVariable" (click)="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu" [class.menuClass]="menuVariable">
+          <ul>
+            <li><a routerLink="/project">проєкти</a></li>
+            <li><a (click)="open()">внесок</a></li>
+            <li><a href="#">контакти</a></li>
+            <li><a href="#">UA/ENG</a></li>
+          </ul>
+          <div class="menu-social">
+            <a href="#"><fa-icon class="icon" [icon]="faFacebookF"></fa-icon></a>
+            <a href="#"><fa-icon class="icon" [icon]="faTwitter"></fa-icon></a>
+            <a href="#"><fa-icon class="icon" [icon]="faPaperPlane"></fa-icon></a>
+            <a href="#"><fa-icon class="icon instagram" [icon]="faInstagram"></fa-icon></a>
+            <a href="#"><fa-icon class="icon" [icon]="faPlay"></fa-icon></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>

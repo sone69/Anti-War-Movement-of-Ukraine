@@ -1,0 +1,85 @@
+.our-goal {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  height: 828px;
+}
+.bg-image {
+  background-image: url(../../../assets/img/main-image.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: 50% -4px;
+}
+.our-goal__text {
+  margin-top: 341px;
+  width: 540px;
+  height: 300px;
+  margin-bottom: 60px;
+  margin-right: 3px;
+}
+.our-goal__button {
+  margin-bottom: 21px;
+}
+.btn {
+  background: #fce000;
+  border-radius: 10px;
+  padding: 10px 39px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.our-goal__anotation {
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 182px;
+}
+@media (max-width: 999.8px) {
+  .our-goal {
+    height: 612px;
+  }
+  .our-goal__text {
+    margin-top: 241px;
+    font-size: 26px;
+    line-height: 34px;
+    width: 400px;
+    margin-bottom: 45px;
+  }
+  .our-goal__anotation {
+    font-size: 23px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 599.8px) {
+  .our-goal {
+    height: 572px;
+  }
+  .our-goal__text {
+    margin-top: 233px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 320px;
+    height: 240px;
+    margin-bottom: 40px;
+  }
+  .our-goal__button {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .our-goal__anotation {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 29px;
+  }
+}

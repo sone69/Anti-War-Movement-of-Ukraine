@@ -1,0 +1,25 @@
+<button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    </div>
+    <div class="carousel-item">
+    </div>
+    <div class="carousel-item">
+    </div>
+  </div>
+  <img class="carousel-control-prev" type="button" src="../../assets/img/arrow-left.svg" alt="Previous">
+  <img class="carousel-control-next" type="button" src="../../assets/img/arrow-right.svg" alt="Next">
+</div>
+<div class="dialog__content">
+  <div class="dialog-title">Лікарня в Бахмуті</div>
+  <div class="dialog-text">«Лікарня у Бахмуті потрапила під ворожий обстріл. Сьогодні зранку росіяни обстріляли Бахмут з
+    артилерії – поцілили в місцеву багатопрофільну лікарню інтенсивного лікування. На щастя, ніхто не постраждав, однак
+    будівля частково зруйнована: пошкоджено стріху і стіни, вибито вікна» – йдеться в повідомленні. </div>
+  <div class="progress">
+    <div class="progres-content"></div>
+  </div>
+  <div class="dialog-collected">Зібрано : 200 000 грн </div>
+  <div class="dialog-collection">Збір : 1 000 000 грн </div>
+</div>
+<button (click)="open()" class="btn">Зробити внесок</button>

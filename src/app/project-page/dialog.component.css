@@ -1,0 +1,186 @@
+::ng-deep .my-class .modal-dialog {
+  max-width: 980px;
+  width: 980px;
+  background: #ececec;
+  border: 1px solid #979797;
+  border-radius: 20px;
+}
+.btn-close {
+  position: absolute;
+  right: 0;
+  background: url(../../assets/img/close.svg);
+  width: 68px;
+  height: 68px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 20px;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0);
+}
+.carousel-inner {
+  margin: 20px;
+}
+.carousel-item {
+  width: 940px;
+  height: 318px;
+  background-image: url(../../assets/img/Borodyanka_center_lg.jpeg.png);
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 52.32px;
+  height: 52.32px;
+  margin-top: 149px;
+}
+.carousel-control-prev {
+  margin-left: 49px;
+}
+.carousel-control-next {
+  margin-right: 49px;
+}
+.dialog-title {
+  font-size: 32px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.dialog-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.035em;
+  margin: 0 20px 20px;
+}
+.progress {
+  width: 96%;
+  height: 20px;
+  background: #d9d9d9;
+  border-radius: 50px;
+  border: none;
+  margin: 0 20px 20px;
+}
+.progres-content {
+  width: 20%;
+  height: 20px;
+  background: #fce000;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: none;
+}
+.dialog-collected,
+.dialog-collection {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 20px 20px;
+}
+.btn {
+  display: flex;
+  background: #fce000;
+  border-radius: 10px;
+  padding: 10px 39px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0 auto 33px;
+}
+@media (max-width: 1130.8px) {
+  ::ng-deep .my-class .modal-dialog {
+    max-width: 540px;
+    width: 540px;
+  }
+  .carousel-item .d-block .w-100 {
+    display: none;
+  }
+  .carousel-inner {
+    margin: 20px 20px 0;
+  }
+  .carousel-item {
+    background-image: url(../../assets/img/Borodyanka_center_sm.jpeg.png);
+    background-repeat: no-repeat;
+    width: 92%;
+    background-size: contain;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .dialog-title {
+    margin-top: 0;
+  }
+  .progress {
+    width: 92%;
+  }
+}
+@media (max-width: 599.8px) {
+  ::ng-deep .my-class .modal-dialog {
+    display: flex;
+    margin: 0 auto;
+    max-width: 360px;
+    width: 360px;
+    background: #fff;
+  }
+  ::ng-deep .d-block {
+    top: 60px;
+  }
+  ::ng-deep .modal-backdrop.fade {
+    display: none;
+  }
+  .btn-close {
+    background-image: url(../../assets/img/arrow-left.svg);
+    width: 41px;
+    height: 41px;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .carousel-inner {
+    margin: 20px 20px 0;
+  }
+  .carousel-item {
+    background-image: url(../../assets/img/Borodyanka_center_sm.jpeg.png);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 179px;
+    background-size: contain;
+    margin-top: 61px;
+  }
+  .dialog__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .dialog-title {
+    font-size: 20px;
+    line-height: 39px;
+    margin-top: 0;
+  }
+  .progress {
+    order: 1;
+    width: 90%;
+  }
+  .dialog-text {
+    order: 3;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .dialog-collected,
+  .dialog-collection {
+    order: 2;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
