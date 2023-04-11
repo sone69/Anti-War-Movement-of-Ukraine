@@ -1,5 +1,6 @@
 header {
   background-color: #fce000;
+  height: 160px;
   width: 100%;
   z-index: 7;
   font-family: "Montserrat", sans-serif;
@@ -11,23 +12,42 @@ header {
 }
 .header-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .logo {
-  max-width: 552.9px;
+  max-width: 630.1px;
+  display: flex;
+  text-decoration: none;
 }
 .logo-image {
   position: relative;
-  margin-top: -29px;
   max-width: 552.9px;
   height: 100%;
   z-index: 10;
 }
+.logo-title {
+  text-transform: none;
+  position: relative;
+  font-family: "Jura", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  z-index: 10;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  width: 489px;
+  margin-left: -20px;
+  margin-bottom: 49px;
+}
 .menu-content {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 64px;
   padding: 0px;
   position: relative;
+  margin-right: 5px;
 }
 .menu {
   margin-top: -29px;
@@ -40,7 +60,7 @@ header {
 }
 .menu ul li {
   list-style-type: none;
-  display: inline-block;
+  display: flex;
   margin-left: 49px;
   text-transform: uppercase;
   z-index: 10;
@@ -86,17 +106,30 @@ header {
   padding-top: 0;
   color: #ffffff;
 }
-
+@media (max-width: 1199.8px) {
+  .menu ul li {
+    margin-left: 20px;
+  }
+  .menu ul {
+    margin-left: -10px;
+  }
+  .container {
+    margin: 0;
+  }
+}
 @media (max-width: 999.8px) {
   .header-content {
     justify-content: space-between;
   }
   .logo {
-    max-width: 450px;
+    max-width: 526px;
   }
   .logo-image {
     max-width: 450px;
     margin-top: -18px;
+  }
+  .logo-title {
+    font-size: 20px;
   }
   .menu {
     display: flex;
@@ -113,12 +146,11 @@ header {
   .menu ul {
     flex-direction: column;
     align-items: center;
-    margin-top: 97px;
+    margin-top: 130px;
   }
   .menu ul li {
     margin-top: 33px;
     margin-left: 0;
-    display: block;
     text-align: left;
     padding: 0;
   }
@@ -164,12 +196,24 @@ header {
   }
 }
 @media (max-width: 599.8px) {
+  header {
+    height: 74px;
+  }
   .logo {
-    max-width: 235px;
+    max-width: 256px;
   }
   .logo-image {
-    max-width: 235px;
+    max-width: 100px;
     margin-top: -10px;
+  }
+  .logo-title {
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 0;
+    margin-bottom: 35px;
+  }
+  .menu-icon {
+    margin-bottom: -35px;
   }
   .menuClass {
     top: 10px;

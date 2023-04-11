@@ -1,5 +1,6 @@
 .power {
   position: relative;
+  top: 99px;
 }
 .help {
   display: flex;

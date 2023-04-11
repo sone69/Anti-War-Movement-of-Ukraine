@@ -6,6 +6,21 @@
   display: flex;
   justify-content: center;
 }
+.footer-title {
+  text-transform: none;
+  position: relative;
+  font-family: "Jura", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  z-index: 10;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  margin-left: -32px;
+  margin-bottom: 49px;
+}
 .footer__content {
   display: flex;
   justify-content: space-between;
@@ -40,6 +55,7 @@
   justify-content: space-between;
   margin-top: 60px;
   color: #ffffff;
+  font-size: 21px;
 }
 .menu-social a:not(:nth-child(4)) {
   width: 45px;
@@ -100,25 +116,57 @@
   .footer__content {
     margin: 40px 100px;
   }
+  .footer-image {
+    max-width: 150px;
+  }
+  .footer-title {
+    margin-left: 0;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
 }
 @media (max-width: 599.8px) {
-  .footer-logo img {
-    max-width: 250px;
+  .footer-logo {
+    justify-content: center;
+  }
+  .footer-image {
+    max-width: 100px;
+  }
+  .footer-title {
+    font-size: 10px;
+    line-height: 12px;
   }
   .footer__content {
     margin: 59px 20px 40px;
+  }
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .form input {
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 20px;
+    background: #efefef;
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
   }
   .form-btn {
     font-size: 20px;
-    padding: 10px 17px;
+    padding: 10px 46px;
   }
   .menu-social {
     margin-top: 40px;
+  }
+  .menu-social a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .instagram {
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .footer-contact__title,
   .footer-contact__text p {

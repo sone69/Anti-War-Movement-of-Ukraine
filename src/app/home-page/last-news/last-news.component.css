@@ -63,6 +63,10 @@ a {
   }
 }
 @media (max-width: 599.8px) {
+  .news__title {
+    display: flex;
+    justify-content: center;
+  }
   .last-news {
     margin: 40px 20px;
   }

@@ -9,10 +9,19 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "ua",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages.en.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "i18nMissingTranslation": "error",
             "outputPath": "dist/anti-war-movement-of-ukraine",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -27,17 +36,20 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "localize": ["en"]
+            },
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 }
               ],
               "outputHashing": "all"
@@ -56,6 +68,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "en": {
+              "browserTarget": "Anti-War-Movement-of-Ukraine:build:development,en"
+            },
             "production": {
               "browserTarget": "Anti-War-Movement-of-Ukraine:build:production"
             },
@@ -68,7 +83,9 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Anti-War-Movement-of-Ukraine:build"
+            "browserTarget": "Anti-War-Movement-of-Ukraine:build",
+            "format": "xlf",
+            "outputPath": "src/locale"
           }
         },
         "test": {
@@ -82,6 +99,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Anti-War-Movement-of-Ukraine:build:production",
+            "firebaseProject": "anti-war-movement-of-ukraine",
+            "firebaseHostingSite": "anti-war-movement-of-ukraine"
           }
         }
       }

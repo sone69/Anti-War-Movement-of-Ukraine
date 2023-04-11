@@ -17,16 +17,61 @@ import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
       aria-label="Close"
       (click)="activeModal.dismiss('Cross click')"
     ></button>
-    <h4 class="modal-title">На що ви б хотіли зробити внесок ?</h4>
+    <h4 class="modal-title" i18n="modal1|title">
+      На що ви б хотіли зробити внесок ?
+    </h4>
     <div class="modal-body">
-      <button class="btn btn-lg" (click)="open()">Лікарня в Бахмуті</button>
-      <button class="btn btn-lg" (click)="open()">Лікарня в Бахмуті</button>
-      <button class="btn btn-lg" (click)="open()">Лікарня в Бахмуті</button>
-      <button class="btn btn-lg" (click)="open()">Лікарня в Бахмуті</button>
-      <button class="btn btn-lg" (click)="open()">Лікарня в Бахмуті</button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal1|button"
+      >
+        Лікарня в Бахмуті
+      </button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal1|button"
+      >
+        Лікарня в Бахмуті
+      </button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal1|button"
+      >
+        Лікарня в Бахмуті
+      </button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal1|button"
+      >
+        Лікарня в Бахмуті
+      </button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal1|button"
+      >
+        Лікарня в Бахмуті
+      </button>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn-next" (click)="open()">Далі</button>
+      <button
+        type="button"
+        class="btn-next"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal1|button-next"
+      >
+        Далі
+      </button>
     </div>
   `,
   styleUrls: ['./header.component.css'],
@@ -63,12 +108,41 @@ export class NgbdModal1Content {
       (click)="activeModal.dismiss('Cross click')"
     ></button>
     <div class="modal-body how">
-      <button class="btn btn-how" (click)="open()">Кредитна карта</button>
-      <button class="btn btn-how" (click)="open()">Банківський переказ</button>
-      <button class="btn btn-how" (click)="open()">PayPal</button>
+      <button
+        class="btn btn-how"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal2|button1"
+      >
+        Кредитна карта
+      </button>
+      <button
+        class="btn btn-how"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal2|button2"
+      >
+        Банківський переказ
+      </button>
+      <button
+        class="btn btn-how"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal2|button3"
+      >
+        PayPal
+      </button>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn-next" (click)="open()">Далі</button>
+      <button
+        type="button"
+        class="btn-next"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal2|button-next"
+      >
+        Далі
+      </button>
     </div>
   `,
   styleUrls: ['./header.component.css'],
@@ -104,16 +178,43 @@ export class NgbdModal2Content {
       aria-label="Close"
       (click)="activeModal.dismiss('Cross click')"
     ></button>
-    <h4 class="modal-title">Виберіть валюту переказу</h4>
+    <h4 class="modal-title" i18n="modal3|title">Виберіть валюту переказу</h4>
     <div class="modal-body">
-      <button class="btn btn-lg" (click)="open()">
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal3|button1"
+      >
         (UAH) UKRAINIAN HRYVNA
       </button>
-      <button class="btn btn-lg" (click)="open()">(USD) US DOLLAR</button>
-      <button class="btn btn-lg" (click)="open()">(EU) EURO</button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal3|button2"
+      >
+        (USD) US DOLLAR
+      </button>
+      <button
+        class="btn btn-lg"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal3|button3"
+      >
+        (EU) EURO
+      </button>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn-next" (click)="open()">Далі</button>
+      <button
+        type="button"
+        class="btn-next"
+        (click)="open()"
+        (click)="activeModal.dismiss('Cross click')"
+        i18n="modal3|button-next"
+      >
+        Далі
+      </button>
     </div>
   `,
   styleUrls: ['./header.component.css'],
@@ -155,7 +256,9 @@ export class NgbdModal3Content {
           class="modal-card__item"
           style="flex-grow:1; margin-top:13px;margin-left:38px;"
         >
-          <div class="modal-card__title">Номер карти</div>
+          <div class="modal-card__title" i18n="modal4|card-title1">
+            Номер карти
+          </div>
           <input
             class="modal-card__number"
             placeholder="7654 - 7896 - 0987 - 1234"
@@ -168,7 +271,9 @@ export class NgbdModal3Content {
           style="flex-grow:1;margin:45px 38px 35px;"
         >
           <div class="modal-card__item">
-            <div class="modal-card__title">Термін дії</div>
+            <div class="modal-card__title" i18n="modal4|card-title2">
+              Термін дії
+            </div>
             <input
               class="modal-card__number"
               placeholder="MM / YY"
@@ -176,19 +281,29 @@ export class NgbdModal3Content {
             />
           </div>
           <div class="modal-card__item">
-            <div class="modal-card__title">CVV</div>
+            <div class="modal-card__title" i18n="modal4|card-title3">CVV</div>
             <input class="modal-card__number" placeholder="000" value="000" />
           </div>
         </div>
       </div>
       <div class="modal-body__card">
-        <div class="modal-body__title">Вкажіть суму пожертви</div>
+        <div class="modal-body__title" i18n="modal4|body-title">
+          Вкажіть суму пожертви
+        </div>
         <div class="modal-body__input">
           <input class="modal-body__number" placeholder="0.00" value="0.00" />
           <input class="modal-body__text" placeholder="UAN" value="UAN" />
         </div>
         <div class="modal-body__footer">
-          <button type="button" class="btn-next" (click)="open()">Далі</button>
+          <button
+            type="button"
+            class="btn-next"
+            (click)="open()"
+            (click)="activeModal.dismiss('Cross click')"
+            i18n="modal4|button-next"
+          >
+            Далі
+          </button>
         </div>
       </div>
     </div>
@@ -219,7 +334,9 @@ export class NgbdModal4Content {
 @Component({
   // 5modal
   template: `
-    <div class="check"><img src="../../../assets/img/check.png" alt="" /></div>
+    <div class="check" (click)="activeModal.dismiss('Cross click')">
+      <img src="../../../assets/img/check.png" alt="" />
+    </div>
   `,
   styleUrls: ['./header.component.css'],
 })
@@ -256,4 +373,6 @@ export class HeaderComponent {
   faPaperPlane = faPaperPlane;
   faInstagram = faInstagram;
   faPlay = faPlay;
+  localesListUA = [{ code: 'ua', label: 'UA' }];
+  localesListENG = [{ code: 'en', label: 'ENG' }];
 }

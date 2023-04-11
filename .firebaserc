@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "anti-war-movement-of-ukraine": {
+      "hosting": {
+        "Anti-War-Movement-of-Ukraine": [
+          "anti-war-movement-of-ukraine"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "anti-war-movement-of-ukraine"
+  }
+}
