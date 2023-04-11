@@ -335,7 +335,7 @@ export class NgbdModal4Content {
   // 5modal
   template: `
     <div class="check" (click)="activeModal.dismiss('Cross click')">
-      <img src="../../../assets/img/check.png" alt="" />
+      <img src="assets/img/check.png" alt="" />
     </div>
   `,
   styleUrls: ['./header.component.css'],

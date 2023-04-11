@@ -20,7 +20,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgbdModalStacked } from './header/modal-stacked.component';
 
 const routes: Routes = [
-  { path: '', component: HomePageComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomePageComponent },
   { path: 'project', component: ProjectPageComponent },
 ];
 
