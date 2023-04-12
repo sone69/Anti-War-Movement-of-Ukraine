@@ -93,6 +93,10 @@
   line-height: 39px;
   margin-bottom: 10px;
 }
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
 .copyright {
   font-family: "Inter";
   font-weight: 400;
@@ -102,6 +106,10 @@
   justify-content: center;
   color: rgba(255, 255, 255, 0.5);
   padding-bottom: 31px;
+}
+.copyright a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 @media (max-width: 1130.8px) {
   .footer__content {

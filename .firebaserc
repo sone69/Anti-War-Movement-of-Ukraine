@@ -1,14 +1,14 @@
 {
   "targets": {
-    "anti-war-movement-of-ukraine": {
+    "anti-war-movement-of-ukr-cb295": {
       "hosting": {
         "Anti-War-Movement-of-Ukraine": [
-          "anti-war-movement-of-ukraine"
+          "anti-war-movement-of-ukr-cb295"
         ]
       }
     }
   },
   "projects": {
-    "default": "anti-war-movement-of-ukraine"
+    "default": "anti-war-movement-of-ukr-cb295"
   }
 }

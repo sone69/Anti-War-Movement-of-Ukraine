@@ -1,0 +1,26 @@
+<button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    </div>
+    <div class="carousel-item">
+    </div>
+    <div class="carousel-item">
+    </div>
+  </div>
+  <img class="carousel-control-prev" type="button" src="assets/img/arrow-left.svg" alt="Previous">
+  <img class="carousel-control-next" type="button" src="assets/img/arrow-right.svg" alt="Next">
+</div>
+<div class="dialog__content">
+  <div class="dialog-title" i18n="project|dialog-title|drone">Дрон</div>
+  <div class="dialog-text" i18n="project|dialog-text|drone">Друзі, ми проводимо збір на дрон!
+    З початку вторгнення окупаційних військ рф, хлопці Окремої Гірсько-Піхотної Бригади боронять кордони нашої Держави.
+    Для допомоги нашим захисникам, збираємо кошти 106 000 грн на дрон марки DJI Mavic 3 Fly More Combo / DJI Mavic 3
+    Enterprise Thermal.</div>
+  <div class="progress">
+    <div class="progres-content"></div>
+  </div>
+  <div class="dialog-collected" i18n="project|dialog-collected|drone">Зібрано : 0 грн </div>
+  <div class="dialog-collection" i18n="project|dialog-collection|drone">Збір: 106 000 грн</div>
+</div>
+<button (click)="open()" class="btn" i18n="project|button|donate">Зробити внесок</button>

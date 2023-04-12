@@ -287,27 +287,38 @@
         <note priority="1" from="description">title</note>
         <note priority="1" from="meaning">modal1</note>
       </trans-unit>
-      <trans-unit id="340806785866493474" datatype="html">
-        <source> Лікарня в Бахмуті </source>
+      <trans-unit id="5613892204716543003" datatype="html">
+        <source> Автомобіль для ЗСУ </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">29,31</context>
         </context-group>
+        <note priority="1" from="description">button</note>
+        <note priority="1" from="meaning">modal1</note>
+      </trans-unit>
+      <trans-unit id="41139679222825257" datatype="html">
+        <source> Тепловізор </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">37,39</context>
         </context-group>
+        <note priority="1" from="description">button</note>
+        <note priority="1" from="meaning">modal1</note>
+      </trans-unit>
+      <trans-unit id="5861409452758451357" datatype="html">
+        <source> Гуманітарна допомога </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">45,47</context>
         </context-group>
+        <note priority="1" from="description">button</note>
+        <note priority="1" from="meaning">modal1</note>
+      </trans-unit>
+      <trans-unit id="418005981120288902" datatype="html">
+        <source> Дрон </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">53,55</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">61,63</context>
         </context-group>
         <note priority="1" from="description">button</note>
         <note priority="1" from="meaning">modal1</note>
@@ -316,7 +327,7 @@
         <source> Далі </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">72,74</context>
+          <context context-type="linenumber">64,66</context>
         </context-group>
         <note priority="1" from="description">button-next</note>
         <note priority="1" from="meaning">modal1</note>
@@ -325,7 +336,7 @@
         <source> Кредитна карта </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">116,118</context>
+          <context context-type="linenumber">108,110</context>
         </context-group>
         <note priority="1" from="description">button1</note>
         <note priority="1" from="meaning">modal2</note>
@@ -334,7 +345,7 @@
         <source> Банківський переказ </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">124,126</context>
+          <context context-type="linenumber">116,118</context>
         </context-group>
         <note priority="1" from="description">button2</note>
         <note priority="1" from="meaning">modal2</note>
@@ -343,7 +354,7 @@
         <source> PayPal </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">132,134</context>
+          <context context-type="linenumber">124,126</context>
         </context-group>
         <note priority="1" from="description">button3</note>
         <note priority="1" from="meaning">modal2</note>
@@ -352,7 +363,7 @@
         <source> Далі </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">143,145</context>
+          <context context-type="linenumber">135,137</context>
         </context-group>
         <note priority="1" from="description">button-next</note>
         <note priority="1" from="meaning">modal2</note>
@@ -361,7 +372,7 @@
         <source>Виберіть валюту переказу</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">181</context>
+          <context context-type="linenumber">173</context>
         </context-group>
         <note priority="1" from="description">title</note>
         <note priority="1" from="meaning">modal3</note>
@@ -370,7 +381,7 @@
         <source> (UAH) UKRAINIAN HRYVNA </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">188,190</context>
+          <context context-type="linenumber">180,182</context>
         </context-group>
         <note priority="1" from="description">button1</note>
         <note priority="1" from="meaning">modal3</note>
@@ -379,7 +390,7 @@
         <source> (USD) US DOLLAR </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">196,198</context>
+          <context context-type="linenumber">188,190</context>
         </context-group>
         <note priority="1" from="description">button2</note>
         <note priority="1" from="meaning">modal3</note>
@@ -388,7 +399,7 @@
         <source> (EU) EURO </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">204,206</context>
+          <context context-type="linenumber">196,198</context>
         </context-group>
         <note priority="1" from="description">button3</note>
         <note priority="1" from="meaning">modal3</note>
@@ -397,7 +408,7 @@
         <source> Далі </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">215,217</context>
+          <context context-type="linenumber">207,209</context>
         </context-group>
         <note priority="1" from="description">button-next</note>
         <note priority="1" from="meaning">modal3</note>
@@ -406,7 +417,7 @@
         <source> Номер карти </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">259,261</context>
+          <context context-type="linenumber">251,253</context>
         </context-group>
         <note priority="1" from="description">card-title1</note>
         <note priority="1" from="meaning">modal4</note>
@@ -415,7 +426,7 @@
         <source> Термін дії </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">274,276</context>
+          <context context-type="linenumber">266,268</context>
         </context-group>
         <note priority="1" from="description">card-title2</note>
         <note priority="1" from="meaning">modal4</note>
@@ -424,7 +435,7 @@
         <source>CVV</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">284</context>
+          <context context-type="linenumber">276</context>
         </context-group>
         <note priority="1" from="description">card-title3</note>
         <note priority="1" from="meaning">modal4</note>
@@ -433,7 +444,7 @@
         <source> Вкажіть суму пожертви </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">290,292</context>
+          <context context-type="linenumber">282,284</context>
         </context-group>
         <note priority="1" from="description">body-title</note>
         <note priority="1" from="meaning">modal4</note>
@@ -442,7 +453,7 @@
         <source> Далі </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">304,306</context>
+          <context context-type="linenumber">296,298</context>
         </context-group>
         <note priority="1" from="description">button-next</note>
         <note priority="1" from="meaning">modal4</note>
@@ -499,6 +510,33 @@
           <context context-type="linenumber">28</context>
         </context-group>
         <note priority="1" from="description">contact-text3</note>
+        <note priority="1" from="meaning">footer</note>
+      </trans-unit>
+      <trans-unit id="6875762917919524161" datatype="html">
+        <source>Публічна оферта</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/footer/footer.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+        <note priority="1" from="description">public-offer</note>
+        <note priority="1" from="meaning">footer</note>
+      </trans-unit>
+      <trans-unit id="6037691353746750777" datatype="html">
+        <source>Статут</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/footer/footer.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">statut</note>
+        <note priority="1" from="meaning">footer</note>
+      </trans-unit>
+      <trans-unit id="7829006387557078389" datatype="html">
+        <source>Політика конфіденційності</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/footer/footer.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+        <note priority="1" from="description">privacy-policy</note>
         <note priority="1" from="meaning">footer</note>
       </trans-unit>
       <trans-unit id="5712413229942886576" datatype="html">
@@ -617,60 +655,74 @@
         <note priority="1" from="description">link</note>
         <note priority="1" from="meaning">news</note>
       </trans-unit>
-      <trans-unit id="1941103359703527273" datatype="html">
-        <source>Лікарня в Бахмуті</source>
+      <trans-unit id="3579318899908713083" datatype="html">
+        <source>Автомобіль для ЗСУ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
         <note priority="1" from="description">title</note>
         <note priority="1" from="meaning">slide</note>
       </trans-unit>
-      <trans-unit id="7660498721234389306" datatype="html">
-        <source>Збір: 1 000 000 грн </source>
+      <trans-unit id="2485991498041827735" datatype="html">
+        <source>Збір: 100 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
+        <note priority="1" from="description">text</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="5739799949234176710" datatype="html">
+        <source>Тепловізор</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">title</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="5303443765935684638" datatype="html">
+        <source>Збір: 94 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
+        <note priority="1" from="description">text</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="3168377491843685254" datatype="html">
+        <source>Гуманітарна допомога</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">title</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="7321731114332366833" datatype="html">
+        <source>Збір: 40 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
+        <note priority="1" from="description">text</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="4948504011525494698" datatype="html">
+        <source>Дрон</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">title</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="154928317843766793" datatype="html">
+        <source>Збір: 106 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">28</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">42</context>
         </context-group>
         <note priority="1" from="description">text</note>
         <note priority="1" from="meaning">slide</note>
@@ -765,57 +817,53 @@
         <note priority="1" from="description">about</note>
         <note priority="1" from="meaning">power</note>
       </trans-unit>
-      <trans-unit id="8514048811074535517" datatype="html">
-        <source>Лікарня в Бахмуті</source>
+      <trans-unit id="928892314424945519" datatype="html">
+        <source>Автомобіль для ЗСУ</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
         <note priority="1" from="description">dialog-title</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="4172193592211166814" datatype="html">
-        <source>«Лікарня у Бахмуті потрапила під ворожий обстріл. Сьогодні зранку росіяни обстріляли Бахмут з артилерії – поцілили в місцеву багатопрофільну лікарню інтенсивного лікування. На щастя, ніхто не постраждав, однак будівля частково зруйнована: пошкоджено стріху і стіни, вибито вікна» – йдеться в повідомленні. </source>
+      <trans-unit id="668043781651090023" datatype="html">
+        <source>Друзі, ми отримуємо багато запитів на позашляховики від наших хлопців. При виконані різноманітних спеціальних завдань на лінії оборони, дуже багато техніки та автомобілів «гине». Потреба в автомобілях дуже велика, тому ми розпочинаємо збір на автомобіль для ЗСУ. Кожна Ваша допомога, будь-яка сума, має значення!</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
           <context context-type="linenumber">16,19</context>
         </context-group>
         <note priority="1" from="description">dialog-text</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="8734528197950178003" datatype="html">
-        <source>Зібрано : 200 000 грн </source>
+      <trans-unit id="4842805947120548142" datatype="html">
+        <source>Зібрано : 0 грн </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">dialog-collected</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="3507794512074144401" datatype="html">
-        <source>Збір : 1 000 000 грн </source>
+      <trans-unit id="3047677047181560046" datatype="html">
+        <source>Збір: 100 000 грн</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">dialog-collection</note>
@@ -824,33 +872,149 @@
       <trans-unit id="6569030359891352641" datatype="html">
         <source>Зробити внесок</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
         <note priority="1" from="description">button</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="5010072135750621742" datatype="html">
-        <source>Збір: 1 000 000 грн </source>
+      <trans-unit id="2298077426041727134" datatype="html">
+        <source>Дрон</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">dialog-title</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="4845215270790380381" datatype="html">
+        <source>Друзі, ми проводимо збір на дрон! З початку вторгнення окупаційних військ рф, хлопці Окремої Гірсько-Піхотної Бригади боронять кордони нашої Держави. Для допомоги нашим захисникам, збираємо кошти 106 000 грн на дрон марки DJI Mavic 3 Fly More Combo / DJI Mavic 3 Enterprise Thermal.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <note priority="1" from="description">dialog-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="7632616768084149828" datatype="html">
+        <source>Збір: 106 000 грн</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">dialog-collection</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="517950906359917690" datatype="html">
+        <source>Гуманітарна допомога</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">dialog-title</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="5523524666849321553" datatype="html">
+        <source>Як багато людей залишилися без роботи, житла, близьких? Скільки пенсіонерів та інвалідів зараз голодують через війну? Так, дуже важко допомогти всім нужденним, але для нас це не значить, що ми складаємо руки! Ми відкриваємо збір на гуманітарну допомогу. Ці кошти підуть на закупівлю продуктів для інвалідів та багатодітних сімей, які знаходяться на деокупованих територіях, куди майже не доставляють продукти, де нема можливості піти і купити це в магазин. Всі, кто може і хоче приєднуйтесь! Ми маємо бути сильними і допомогати один одному.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">16,21</context>
+        </context-group>
+        <note priority="1" from="description">dialog-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2018218216043247974" datatype="html">
+        <source>Збір: 40 000 грн</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">dialog-collection</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="3089373363750409146" datatype="html">
+        <source>Тепловізор</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">dialog-title</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2149666914258532385" datatype="html">
+        <source>Наші воїни несуть нам світло серед темряви, даруючи впевненість у тому, що все буде «Україна». Але для цього нашим хлопцям потрібен прилад нічного бачення. Саме тому, любі друзі, ми відкриваємо збір коштів на суму 94000 грн. Наші янголи - охоронці зараз в районі Бахмут і їм дуже-дуже потрібна наша з Вами допомога. Кожна гривня від Вас наближає нас до перемоги!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <note priority="1" from="description">dialog-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2409408994063254864" datatype="html">
+        <source>Збір: 94 000 грн</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">dialog-collection</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="9058936949412835979" datatype="html">
+        <source>Збір: 100 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2653017180451917074" datatype="html">
+        <source>Збір: 94 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="4671304528848599269" datatype="html">
+        <source>Збір: 40 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="6727873769214775037" datatype="html">
+        <source>Збір: 106 000 грн </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">28</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">35</context>
         </context-group>
         <note priority="1" from="description">slide-text</note>
         <note priority="1" from="meaning">project</note>
@@ -859,7 +1023,7 @@
         <source>Ми вдячні кожній компанії, підприємству та звичайним людям, які допомагають Україні з конкретними потребами</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">41,42</context>
+          <context context-type="linenumber">38,39</context>
         </context-group>
         <note priority="1" from="description">text</note>
         <note priority="1" from="meaning">project</note>

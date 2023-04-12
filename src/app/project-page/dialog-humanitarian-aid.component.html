@@ -1,0 +1,28 @@
+<button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    </div>
+    <div class="carousel-item">
+    </div>
+    <div class="carousel-item">
+    </div>
+  </div>
+  <img class="carousel-control-prev" type="button" src="assets/img/arrow-left.svg" alt="Previous">
+  <img class="carousel-control-next" type="button" src="assets/img/arrow-right.svg" alt="Next">
+</div>
+<div class="dialog__content">
+  <div class="dialog-title" i18n="project|dialog-title|humanitarian-aid">Гуманітарна допомога</div>
+  <div class="dialog-text" i18n="project|dialog-text|humanitarian-aid">Як багато людей залишилися без роботи, житла,
+    близьких? Скільки пенсіонерів та інвалідів зараз голодують через війну? Так, дуже важко допомогти всім нужденним,
+    але для нас це не значить, що ми складаємо руки! Ми відкриваємо збір на гуманітарну допомогу. Ці кошти підуть на
+    закупівлю продуктів для інвалідів та багатодітних сімей, які знаходяться на деокупованих територіях, куди майже не
+    доставляють продукти, де нема можливості піти і купити це в магазин. Всі, кто може і хоче приєднуйтесь! Ми маємо
+    бути сильними і допомогати один одному.</div>
+  <div class="progress">
+    <div class="progres-content"></div>
+  </div>
+  <div class="dialog-collected" i18n="project|dialog-collected|humanitarian-aid">Зібрано : 0 грн </div>
+  <div class="dialog-collection" i18n="project|dialog-collection|humanitarian-aid">Збір: 40 000 грн</div>
+</div>
+<button (click)="open()" class="btn" i18n="project|button|donate">Зробити внесок</button>

@@ -1,0 +1,26 @@
+<button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    </div>
+    <div class="carousel-item">
+    </div>
+    <div class="carousel-item">
+    </div>
+  </div>
+  <img class="carousel-control-prev" type="button" src="assets/img/arrow-left.svg" alt="Previous">
+  <img class="carousel-control-next" type="button" src="assets/img/arrow-right.svg" alt="Next">
+</div>
+<div class="dialog__content">
+  <div class="dialog-title" i18n="project|dialog-title|car">Автомобіль для ЗСУ</div>
+  <div class="dialog-text" i18n="project|dialog-text|car">Друзі, ми отримуємо багато запитів на позашляховики від наших
+    хлопців. При виконані різноманітних спеціальних завдань на лінії оборони, дуже багато техніки та автомобілів «гине».
+    Потреба в автомобілях дуже велика, тому ми розпочинаємо збір на автомобіль для ЗСУ. Кожна Ваша допомога, будь-яка
+    сума, має значення!</div>
+  <div class="progress">
+    <div class="progres-content"></div>
+  </div>
+  <div class="dialog-collected" i18n="project|dialog-collected|car">Зібрано : 0 грн </div>
+  <div class="dialog-collection" i18n="project|dialog-collection|car">Збір: 100 000 грн</div>
+</div>
+<button (click)="open()" class="btn" i18n="project|button|donate">Зробити внесок</button>

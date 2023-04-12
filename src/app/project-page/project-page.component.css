@@ -8,7 +8,7 @@
 }
 .project__item {
   width: 280px;
-  height: 347px;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -41,6 +41,9 @@
 .project__text {
   background-color: #fce000;
   padding: 59px 130px;
+}
+.info {
+  background-color: #ffffff;
 }
 .project__text p {
   font-size: 32px;

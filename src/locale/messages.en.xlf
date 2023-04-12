@@ -292,28 +292,42 @@
         <note priority="1" from="description">title</note>
         <note priority="1" from="meaning">modal1</note>
       </trans-unit>
-      <trans-unit id="340806785866493474" datatype="html">
-        <source> Лікарня в Бахмуті </source>
-        <target>Hospital in Bakhmut</target>
+      <trans-unit id="5613892204716543003" datatype="html">
+        <source> Автомобіль для ЗСУ </source>
+        <target>A car for the Armed Forces of Ukraine</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">29,31</context>
         </context-group>
+        <note priority="1" from="description">button</note>
+        <note priority="1" from="meaning">modal1</note>
+      </trans-unit>
+      <trans-unit id="41139679222825257" datatype="html">
+        <source> Тепловізор </source>
+        <target>Thermal imager</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">37,39</context>
         </context-group>
+        <note priority="1" from="description">button</note>
+        <note priority="1" from="meaning">modal1</note>
+      </trans-unit>
+      <trans-unit id="5861409452758451357" datatype="html">
+        <source> Гуманітарна допомога </source>
+        <target>Humanitarian aid</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">45,47</context>
         </context-group>
+        <note priority="1" from="description">button</note>
+        <note priority="1" from="meaning">modal1</note>
+      </trans-unit>
+      <trans-unit id="418005981120288902" datatype="html">
+        <source> Дрон </source>
+        <target>Drone</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.ts</context>
           <context context-type="linenumber">53,55</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.ts</context>
-          <context context-type="linenumber">61,63</context>
         </context-group>
         <note priority="1" from="description">button</note>
         <note priority="1" from="meaning">modal1</note>
@@ -528,6 +542,36 @@
         <note priority="1" from="description">contact-text3</note>
         <note priority="1" from="meaning">footer</note>
       </trans-unit>
+      <trans-unit id="6875762917919524161" datatype="html">
+        <source>Публічна оферта</source>
+        <target>Public offer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/footer/footer.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+        <note priority="1" from="description">public-offer</note>
+        <note priority="1" from="meaning">footer</note>
+      </trans-unit>
+      <trans-unit id="6037691353746750777" datatype="html">
+        <source>Статут</source>
+        <target>Statut</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/footer/footer.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">statut</note>
+        <note priority="1" from="meaning">footer</note>
+      </trans-unit>
+      <trans-unit id="7829006387557078389" datatype="html">
+        <source>Політика конфіденційності</source>
+        <target>Privacy policy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/footer/footer.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+        <note priority="1" from="description">privacy-policy</note>
+        <note priority="1" from="meaning">footer</note>
+      </trans-unit>
       <trans-unit id="5712413229942886576" datatype="html">
         <source>ПУНКТ НЕЗЛАМНОСТІ</source>
         <target>POINT OF INVINCIBILITY</target>
@@ -656,62 +700,82 @@
         <note priority="1" from="description">link</note>
         <note priority="1" from="meaning">news</note>
       </trans-unit>
-      <trans-unit id="1941103359703527273" datatype="html">
-        <source>Лікарня в Бахмуті</source>
-        <target>Hospital in Bakhmut</target>
+      <trans-unit id="3579318899908713083" datatype="html">
+        <source>Автомобіль для ЗСУ</source>
+        <target>A car for the Armed Forces of Ukraine</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
         <note priority="1" from="description">title</note>
         <note priority="1" from="meaning">slide</note>
       </trans-unit>
-      <trans-unit id="7660498721234389306" datatype="html">
-        <source>Збір: 1 000 000 грн </source>
-        <target>Fundraising: 1 000 000 UAH</target>
+      <trans-unit id="2485991498041827735" datatype="html">
+        <source>Збір: 100 000 грн </source>
+        <target>Raised funds: 100 000 UAH</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
+        <note priority="1" from="description">text</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="5739799949234176710" datatype="html">
+        <source>Тепловізор</source>
+        <target>Thermal imager</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">title</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="5303443765935684638" datatype="html">
+        <source>Збір: 94 000 грн </source>
+        <target>Raised funds: 94 000 UAH</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
+        <note priority="1" from="description">text</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="3168377491843685254" datatype="html">
+        <source>Гуманітарна допомога</source>
+        <target>Humanitarian aid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">title</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="7321731114332366833" datatype="html">
+        <source>Збір: 40 000 грн </source>
+        <target>Raised funds: 40 000 UAH</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
+        <note priority="1" from="description">text</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="4948504011525494698" datatype="html">
+        <source>Дрон</source>
+        <target>Drone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">title</note>
+        <note priority="1" from="meaning">slide</note>
+      </trans-unit>
+      <trans-unit id="154928317843766793" datatype="html">
+        <source>Збір: 106 000 грн </source>
+        <target>Raised funds: 106 000 UAH</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
           <context context-type="linenumber">28</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page/needs/carousel/carousel.component.html</context>
-          <context context-type="linenumber">42</context>
         </context-group>
         <note priority="1" from="description">text</note>
         <note priority="1" from="meaning">slide</note>
@@ -816,61 +880,57 @@
         <note priority="1" from="description">about</note>
         <note priority="1" from="meaning">power</note>
       </trans-unit>
-      <trans-unit id="8514048811074535517" datatype="html">
-        <source>Лікарня в Бахмуті</source>
-        <target>Hospital in Bakhmut</target>
+      <trans-unit id="928892314424945519" datatype="html">
+        <source>Автомобіль для ЗСУ</source>
+        <target>A car for the Armed Forces of Ukraine</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
         <note priority="1" from="description">dialog-title</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="4172193592211166814" datatype="html">
-        <source>«Лікарня у Бахмуті потрапила під ворожий обстріл. Сьогодні зранку росіяни обстріляли Бахмут з артилерії – поцілили в місцеву багатопрофільну лікарню інтенсивного лікування. На щастя, ніхто не постраждав, однак будівля частково зруйнована: пошкоджено стріху і стіни, вибито вікна» – йдеться в повідомленні. </source>
-        <target>"The hospital in Bakhmut came under enemy fire. This morning, the Russians shelled Bakhmut with artillery - they aimed at the local multidisciplinary intensive care hospital. Fortunately, no one was injured, but the building was partially destroyed: the roof and walls were damaged, the windows were broken," the message reads.</target>
+      <trans-unit id="668043781651090023" datatype="html">
+        <source>Друзі, ми отримуємо багато запитів на позашляховики від наших хлопців. При виконані різноманітних спеціальних завдань на лінії оборони, дуже багато техніки та автомобілів «гине». Потреба в автомобілях дуже велика, тому ми розпочинаємо збір на автомобіль для ЗСУ. Кожна Ваша допомога, будь-яка сума, має значення!</source>
+        <target>Dear friends, we receive a lot of requests for off-road vehicles from our guys. While performing various special missions on the defense line, a lot of equipment and vehicles get "killed". The need for vehicles is very high, so we are launching a fundraising campaign to buy a car for the Armed Forces of Ukraine. Your help, any amount, makes a big difference!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
           <context context-type="linenumber">16,19</context>
         </context-group>
         <note priority="1" from="description">dialog-text</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="8734528197950178003" datatype="html">
-        <source>Зібрано : 200 000 грн </source>
-        <target>Now : 200 000 UAH </target>
+      <trans-unit id="4842805947120548142" datatype="html">
+        <source>Зібрано : 0 грн </source>
+        <target>Now : 0 UAH </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">dialog-collected</note>
         <note priority="1" from="meaning">project</note>
       </trans-unit>
-      <trans-unit id="3507794512074144401" datatype="html">
-        <source>Збір : 1 000 000 грн </source>
-        <target>Fundraising: 1 000 000 UAH</target>
+      <trans-unit id="3047677047181560046" datatype="html">
+        <source>Збір: 100 000 грн</source>
+        <target>Raised funds: 100 000 UAH</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/project-page/dialog.component.html</context>
+          <context context-type="sourcefile">src/app/project-page/dialog-car.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">dialog-collection</note>
@@ -908,6 +968,150 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
           <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2298077426041727134" datatype="html">
+        <source>Дрон</source>
+        <target>Drone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">dialog-title</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="4845215270790380381" datatype="html">
+        <source>Друзі, ми проводимо збір на дрон! З початку вторгнення окупаційних військ рф, хлопці Окремої Гірсько-Піхотної Бригади боронять кордони нашої Держави. Для допомоги нашим захисникам, збираємо кошти 106 000 грн на дрон марки DJI Mavic 3 Fly More Combo / DJI Mavic 3 Enterprise Thermal.</source>
+        <target>Friends, we are holding a fundraiser for a drone!   
+Since the beginning of the invasion of the Russian occupation forces, the military unit A1556 of the 128th Separate Mountain Infantry Brigade has been defending the borders of our country.  
+  To help our defenders, we are raising funds of 106,000 UAH for a drone of the brand DJI Mavic 3 Fly More Combo / DJI Mavic 3 Enterprise Thermal.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <note priority="1" from="description">dialog-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="7632616768084149828" datatype="html">
+        <source>Збір: 106 000 грн</source>
+        <target>Raised funds: 106 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-drone.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">dialog-collection</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="517950906359917690" datatype="html">
+        <source>Гуманітарна допомога</source>
+        <target>Humanitarian aid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">dialog-title</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="5523524666849321553" datatype="html">
+        <source>Як багато людей залишилися без роботи, житла, близьких? Скільки пенсіонерів та інвалідів зараз голодують через війну? Так, дуже важко допомогти всім нужденним, але для нас це не значить, що ми складаємо руки! Ми відкриваємо збір на гуманітарну допомогу. Ці кошти підуть на закупівлю продуктів для інвалідів та багатодітних сімей, які знаходяться на деокупованих територіях, куди майже не доставляють продукти, де нема можливості піти і купити це в магазин. Всі, кто може і хоче приєднуйтесь! Ми маємо бути сильними і допомогати один одному.</source>
+        <target>How many people have lost their jobs, homes, and family members? How many pensioners and disabled people are now hungry because of the war? Yes, it is very difficult to help all those in need, but for us, it does not mean that we are giving up! We are launching a collection for humanitarian aid. These funds will be used to buy products for the disabled and large families in the de-occupied territories, where food is hardly delivered, and where there is no way to go and buy it in a store. Everyone who can and wants to join in! We have to be strong and help each other.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">16,21</context>
+        </context-group>
+        <note priority="1" from="description">dialog-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2018218216043247974" datatype="html">
+        <source>Збір: 40 000 грн</source>
+        <target>Raised funds: 40 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-humanitarian-aid.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">dialog-collection</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="3089373363750409146" datatype="html">
+        <source>Тепловізор</source>
+        <target>Thermal imager</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">dialog-title</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2149666914258532385" datatype="html">
+        <source>Наші воїни несуть нам світло серед темряви, даруючи впевненість у тому, що все буде «Україна». Але для цього нашим хлопцям потрібен прилад нічного бачення. Саме тому, любі друзі, ми відкриваємо збір коштів на суму 94000 грн. Наші янголи - охоронці зараз в районі Бахмут і їм дуже-дуже потрібна наша з Вами допомога. Кожна гривня від Вас наближає нас до перемоги!</source>
+        <target>Our soldiers bring us light in the midst of darkness, giving us confidence that everything will be "Ukraine". But for this, our guys need a night vision device. That's why, dear friends, we are starting a fundraising campaign to raise 94000 UAH. Our guardian angels are now in the area of Bakhmut and they really, really need our help. Every hryvnia from you brings us closer to victory!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <note priority="1" from="description">dialog-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2409408994063254864" datatype="html">
+        <source>Збір: 94 000 грн</source>
+        <target>Raised funds: 94 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/dialog-thermal-imager.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">dialog-collection</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="9058936949412835979" datatype="html">
+        <source>Збір: 100 000 грн </source>
+        <target>Raised funds: 100 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="2653017180451917074" datatype="html">
+        <source>Збір: 94 000 грн </source>
+        <target>Raised funds: 94 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="4671304528848599269" datatype="html">
+        <source>Збір: 40 000 грн </source>
+        <target>Raised funds: 40 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">slide-text</note>
+        <note priority="1" from="meaning">project</note>
+      </trans-unit>
+      <trans-unit id="6727873769214775037" datatype="html">
+        <source>Збір: 106 000 грн </source>
+        <target>Raised funds: 106 000 UAH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/project-page/project-page.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <note priority="1" from="description">slide-text</note>
         <note priority="1" from="meaning">project</note>

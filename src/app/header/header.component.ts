@@ -25,41 +25,33 @@ import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
         class="btn btn-lg"
         (click)="open()"
         (click)="activeModal.dismiss('Cross click')"
-        i18n="modal1|button"
+        i18n="modal1|button|car"
       >
-        Лікарня в Бахмуті
+        Автомобіль для ЗСУ
       </button>
       <button
         class="btn btn-lg"
         (click)="open()"
         (click)="activeModal.dismiss('Cross click')"
-        i18n="modal1|button"
+        i18n="modal1|button|thermal-imager"
       >
-        Лікарня в Бахмуті
+        Тепловізор
       </button>
       <button
         class="btn btn-lg"
         (click)="open()"
         (click)="activeModal.dismiss('Cross click')"
-        i18n="modal1|button"
+        i18n="modal1|button|humanitarian-aid"
       >
-        Лікарня в Бахмуті
+        Гуманітарна допомога
       </button>
       <button
         class="btn btn-lg"
         (click)="open()"
         (click)="activeModal.dismiss('Cross click')"
-        i18n="modal1|button"
+        i18n="modal1|button|drone"
       >
-        Лікарня в Бахмуті
-      </button>
-      <button
-        class="btn btn-lg"
-        (click)="open()"
-        (click)="activeModal.dismiss('Cross click')"
-        i18n="modal1|button"
-      >
-        Лікарня в Бахмуті
+        Дрон
       </button>
     </div>
     <div class="modal-footer">
